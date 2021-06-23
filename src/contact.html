@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/9dc9a33ec5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-book-reader fa-2x py-3 pr-3"> </i>
+                Books</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="mr-auto"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Authors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Price</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="dropdown">
+                    <a class="nav-link" href="#">Page</a>
+                    <div class="dropdown-content">
+                      <a href="#">Generic</a>
+                      <a href="#">Element</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-sm-12 pt-5  text-left">
+            <form id='form'>
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Name </label>
+                    <input type="text" class="form-control" id="name" placeholder="Harry potter">
+                  </div>
+
+           
+                <div class="form-group">
+                  <label for="contact-type">Type of contact</label>
+                  <select  class="form-control" id="contact-type">
+                    <option>Cooperation requirement</option>
+                    <option>Problem of shipment</option>
+                    <option>Purchase of marchandise</option>
+                    <option>Need a SAV contact</option>
+                    <option>Any other questions</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Leave a message </label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane  pr-2"> </i>
+                    Envoyer</button>
+              </form>
+              <div id='error' class="text-center">
+                  
+              </div>
+
+            </div>
+          <div class="col-md-5 col-sm-12 h-25">
+            <img src="../assets/header-img.png" alt="book" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-1">
+        <div class="containter text-center">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="pray">
+                <img src="../assets/pexels-photo-1904769.jpeg" alt="pray" />
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="panel text-left">
+                <h1>M. David Smith</h1>
+                <p class="pt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti eligendi esse repellat, ducimus doloremque et vitae
+                  eos laborum illum veritatis cupiditate inventore architecto
+                  quasi quam consectetur sunt necessitatibus. Deleniti, ad.
+                </p>
+                <p class="pt-4">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsa amet quo accusamus aliquam odit, sunt, non fugiat adipisci eos tenetur cumque sit iure eveniet quibusdam, corrupti sint. Neque, dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, omnis reiciendis? Nesciunt, ad adipisci, nostrum doloribus incidunt ducimus labore blanditiis nemo eum consequuntur natus velit sint impedit reiciendis soluta. Porro.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-2 container-fluid p-0">
+        <div class="cover">
+          <div class="content text-center">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              eligendi aliquid!
+            </p>
+          </div>
+        </div>
+
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <h1>1356</h1>
+              <p>happy client</p>
+            </div>
+            <div class="rect">
+              <h1>4786 </h1>
+              <p>happy client</p>
+            </div>
+            <div class="rect">
+              <h1>2345</h1>
+              <p>happy client</p>
+            </div>
+            <div class="rect">
+                <h1>2845</h1>
+                <p>happy client</p>
+              </div>
+        </div>
+
+        <div class="purchase text-center">
+          <h1>Purchase whatever you want</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur?
+          </p>
+          <div class="cards">
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+              <div class="card">
+                <div class="card-body">
+                  <div class="title">
+                    <h5 class="card-title">PDF</h5>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="pricing">
+                    <h1>$16.5</h1>
+                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">
+                      Purchase now
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="title">
+                    <h5 class="card-title">E-book</h5>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="pricing">
+                    <h1>$26.6</h1>
+                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">
+                      Purchase now
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="title">
+                    <h5 class="card-title">Print Copy</h5>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="pricing">
+                    <h1>$56.6</h1>
+                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">
+                      Purchase now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3 container-fluid p-0 text-center d-flex flex-column justify-content-center">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>Download books</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+              vero minus nam maiores sit cumque veniam explicabo quaerat. Modi
+              exercitationem, aut ex non quia harum eos soluta laboriosam quos
+              fugit?
+            </p>
+          </div>
+        </div>
+
+        <div class="platform row">
+          <div class="col-md-6 col-sm-12 text-right">
+            <div class="desktop shadow-lg">
+              <div class="btn d-flex flex-row justify-content-center">
+                <i class="fas fa-desktop fa-3x py-3 pr-3"> </i>
+                <div class="text text-left">
+                  <h3 class="pt-1">On desktop</h3>
+                  <p class="p-0 m-0">On website</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 text-left">
+            <div class="desktop shadow-lg">
+              <div class="btn d-flex flex-row justify-content-center">
+                <i class="fas fa-mobile-alt fa-3x py-3 pr-3"> </i>
+                <div class="text text-left">
+                  <h3 class="pt-1">On mobile</h3>
+                  <p class="p-0 m-0">On play store</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-4">
+        <div class="container text-center">
+          <h1 class="text-dark">What our readers say</h1>
+          <p class="text-secondary">
+            Lorem ipsum dolor sit, amet consectetur adipisicing.
+          </p>
+        </div>
+
+        <div class="team row">
+          <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img
+                  src="../assets/UI-face-1.jpg"
+                  alt="member"
+                  class="img-fluid border-radius"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Blablock jolene</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                  magnam eius consectetur voluptate ex sed, perferendis
+                  architecto tempore delectus saepe corporis at maxime tenetur
+                  exercitationem nisi. Dolore saepe deserunt quam?
+                </p>
+                <a href="#" class="text-secondary text-decoration-none"
+                  >Go somewhere</a
+                >
+                <p class="text-black-50">CEO GOOGLE</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img
+                  src="../assets/UI-face-3.jpg"
+                  alt="member"
+                  class="img-fluid border-radius"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Blablock jolene</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                  magnam eius consectetur voluptate ex sed, perferendis
+                  architecto tempore delectus saepe corporis at maxime tenetur
+                  exercitationem nisi. Dolore saepe deserunt quam?
+                </p>
+                <a href="#" class="text-secondary text-decoration-none"
+                  >Go somewhere</a
+                >
+                <p class="text-black-50">CEO GOOGLE</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img
+                  src="../assets/UI-face-2.jpg"
+                  alt="member"
+                  class="img-fluid border-radius"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Blablock jolene</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                  magnam eius consectetur voluptate ex sed, perferendis
+                  architecto tempore delectus saepe corporis at maxime tenetur
+                  exercitationem nisi. Dolore saepe deserunt quam?
+                </p>
+                <a href="#" class="text-secondary text-decoration-none"
+                  >Go somewhere</a
+                >
+                <p class="text-black-50">CEO GOOGLE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+    <footer>
+      <div class="container-fluid p-0">
+        <div class="row text-left">
+          <div class="col-md-5 col-sm-5">
+            <h4 class="text-light">About us</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maxime ea similique illum corrupti</p>
+            <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | This template is made with by
+              <span> Harry Potter</span>
+            </p>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <h4 class="text-light">Newsletter</h4>
+            <p class="text-muted">Stay Updated</p>
+            <form class="form-inline">
+              <div class="col pl-0">
+                <div class="input-group pr-5">
+                  <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-2 col-sm-12">
+            <h4 class="text-light">Follow Us</h4>
+            <p class="text-muted">Let us be social</p>
+            <div class="column text-light">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
